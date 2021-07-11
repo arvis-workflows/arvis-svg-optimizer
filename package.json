@@ -1,0 +1,22 @@
+{
+  "name": "arvis-svg-optimizer",
+  "version": "0.0.1",
+  "description": "Optimize copied SVG markup",
+  "main": "index.js",
+  "author": "Yago",
+  "license": "MIT",
+  "scripts": {
+		"postinstall": "arvish-init",
+		"preuninstall": "arvish-cleanup",
+    "prepublishOnly": "arvish-prepublish"
+	},
+  "files": [
+    "index.js",
+    "arvis-workflow.json",
+    "icon.png"
+  ],
+  "dependencies": {
+    "arvish": ">=0.5.2",
+    "svgo": "^1.0.5"
+  }
+}
